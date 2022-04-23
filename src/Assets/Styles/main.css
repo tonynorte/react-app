@@ -1,0 +1,514 @@
+/* fonts */
+
+@font-face {
+    font-family: Exo2-Black;
+    src: url(../../Assets/Fonts/Exo2-Black.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-BlackItalic;
+    src: url(../../Assets/Fonts/Exo2-BlackItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-Bold;
+    src: url(../../Assets/Fonts/Exo2-Bold.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-BoldItalic;
+    src: url(../../Assets/Fonts/Exo2-BoldItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-ExtraBold;
+    src: url(../../Assets/Fonts/Exo2-ExtraBold.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-ExtraBoldItalic;
+    src: url(../../Assets/Fonts/Exo2-ExtraBoldItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-ExtraLight;
+    src: url(../../Assets/Fonts/Exo2-ExtraLight.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-ExtraLightItalic;
+    src: url(../../Assets/Fonts/Exo2-ExtraLightItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-Medium;
+    src: url(../../Assets/Fonts/Exo2-Medium.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-MediumItalic;
+    src: url(../../Assets/Fonts/Exo2-MediumItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-SemiBold;
+    src: url(../../Assets/Fonts/Exo2-SemiBold.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-SemiBoldItalic;
+    src: url(../../Assets/Fonts/Exo2-SemiBoldItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-Thin;
+    src: url(../../Assets/Fonts/Exo2-Thin.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-Light;
+    src: url(../../Assets/Fonts/Exo2-Light.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: Exo2-ThinItalic;
+    src: url(../../Assets/Fonts/Exo2-ThinItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* End fonts */
+  
+  a,
+  abbr,
+  acronym,
+  address,
+  applet,
+  article,
+  aside,
+  audio,
+  b,
+  big,
+  blockquote,
+  body,
+  canvas,
+  caption,
+  center,
+  cite,
+  code,
+  dd,
+  del,
+  details,
+  dfn,
+  div,
+  dl,
+  dt,
+  em,
+  embed,
+  fieldset,
+  figcaption,
+  figure,
+  footer,
+  form,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  header,
+  hgroup,
+  html,
+  i,
+  iframe,
+  img,
+  ins,
+  kbd,
+  label,
+  legend,
+  li,
+  mark,
+  menu,
+  nav,
+  object,
+  ol,
+  output,
+  p,
+  pre,
+  q,
+  ruby,
+  s,
+  samp,
+  section,
+  small,
+  span,
+  strike,
+  strong,
+  sub,
+  summary,
+  sup,
+  table,
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  time,
+  tr,
+  tt,
+  u,
+  ul,
+  var,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  blockquote,
+  q {
+    quotes: none;
+  }
+  blockquote:after,
+  blockquote:before,
+  q:after,
+  q:before {
+    content: "";
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  h2 {
+    font-size: 5.5rem;
+    line-height: 0.94;
+  }
+  h5 {
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+  nav,
+  video {
+    width: 100%;
+  }
+  nav {
+    background-color: #121212;
+    height: 62px;
+  }
+  body {
+    font-family: Exo2-Medium;
+    font-size: 16px;
+    background: #000;
+    color: #9ac32a;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+  }
+  a,
+  p {
+    color: #e9e9ec;
+  }
+  .wrap-content {
+    padding: 4rem 5%;
+    overflow: hidden;
+  }
+  .title {
+    margin: 0 0 2.5rem;
+    text-align: center;
+  }
+  .wide-btn {
+    background: url(../../Assets/Img/WIDE-BTN-GREEN.png);
+    border: none;
+    color: #ecdf00;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Exo2-Bold;
+    margin: 0 auto;
+    padding: 3.4rem 2.45rem 2.45rem;
+    text-transform: uppercase;
+  }
+  embed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  @media screen and (min-width: 1100px) {
+    a {
+      color: #5f5f5f;
+    }
+    a:hover {
+      color: #fff;
+    }
+    nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .image {
+      background-size: contain;
+      background-position: 0 0;
+    }
+  }
+  .pos-relative {
+    position: relative;
+  }
+  .pos-absolute {
+    position: absolute;
+  }
+  .overlay,
+  .w-100 {
+    width: 100%;
+  }
+  .overlay {
+    background-color: #121212;
+    border: 1px solid #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Exo2-Medium;
+    height: 60px;
+    position: absolute;
+    z-index: 20;
+  }
+  .overlay > label {
+    border-bottom: 2px solid #e9e9ec;
+    border-top: 2px solid #e9e9ec;
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    left: 3vw;
+    position: relative;
+    top: 15px;
+    width: 30px;
+  }
+  .overlay > label:before {
+    border-top: 2px solid #e9e9ec;
+    content: "";
+    display: block;
+    position: relative;
+    top: 7px;
+  }
+  .verticalNav {
+    background-color: #121212;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #e9e9ec;
+    font-family: Exo2-Bold;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    position: relative;
+    top: -375px;
+    -webkit-transition: top 0.6s cubic-bezier(0.17, 0.04, 0.03, 0.94);
+    -o-transition: top 0.6s cubic-bezier(0.17, 0.04, 0.03, 0.94);
+    transition: top 0.6s cubic-bezier(0.17, 0.04, 0.03, 0.94);
+    z-index: 10;
+  }
+  .verticalNav li {
+    padding: 1rem;
+    border: 1px solid #000;
+    border-top: 0;
+    text-transform: uppercase;
+  }
+  .verticalNav a {
+    font-size: 1rem;
+  }
+  #toggle {
+    position: absolute;
+    visibility: hidden;
+  }
+  #toggle:checked ~ .verticalNav {
+    top: 60px;
+  }
+  #toggle:checked ~ .puppies {
+    margin-top: 135px;
+  }
+  svg#logo-menu {
+    -ms-flex-item-align: center;
+    align-self: center;
+    height: 62px;
+    margin-left: 35.5vw;
+    width: 18vw;
+  }
+  
+  @media screen and (min-width: 769px) {
+    svg#logo-menu {
+      width: 10vw;
+    }
+  }
+  @media screen and (min-width: 1100px) {
+    #toggle,
+    .overlay > label {
+      display: none;
+    }
+    .overlay {
+      border: 0;
+      position: static;
+      max-width: 10%;
+    }
+    svg#logo-menu {
+      margin: 0;
+      width: 8vw;
+    }
+    .verticalNav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      position: static;
+      width: 90%;
+    }
+    .verticalNav li {
+      border: 0;
+      -ms-flex-item-align: center;
+      align-self: center;
+    }
+    .verticalNav a {
+      font-size: 0.8rem;
+    }
+  }
+  .wrap-footer {
+    background-color: #18243d;
+    color: #e9e9ec;
+    font-family: Exo2-Light;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    padding: 3rem;
+    text-align: center;
+  }
+  .wrap-footer a {
+    margin: 0.5rem 0;
+  }
+  /* general slider */
+  .general-slider {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .general-slider li {
+    height: 40vh;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+  .general-slider li img {
+    max-height: 100%;
+    min-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+  
+  .wrap-slider {
+    position: relative;
+  }
+  
+  .wrap-slider a.btn {
+    position: absolute;
+    top: 40%;
+    font-size: 3rem;
+    right: 93%;
+  }
+  
+  .wrap-slider a.btn.next {
+    right: 3%;
+  }
+  
+  .wrap-slider a.btn:hover {
+    transform: translate3d(0, 10px, 0);
+  }
+  
+  .general-slider li {
+    display: none;
+  }
+  .general-slider li.active {
+    display: flex;
+  }
+  
+  /* END general slider  */
+  #wrap-video-home {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-height: 666px;
+    overflow: hidden;
+  }
+  #video-landing {
+    min-height: 550px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: -100;
+  }
+  #akbal-logo-home {
+    width: 100%;
+  }
+  .wrap-svg-home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1100px) {
+    #akbal-logo-home {
+      width: 20%;
+    }
+    .wrap-svg-home {
+      border-top: 1px solid hsla(0, 0%, 100%, 0.270588);
+      border-bottom: 1px solid hsla(0, 0%, 100%, 0.270588);
+      width: 100%;
+    }
+  }
+  .galery .wrap-content {
+    padding: 0;
+  }
+  
