@@ -1,0 +1,415 @@
+/* fonts */
+
+@font-face {
+    font-family: Exo2-Black;
+    src: url(../../Assets/Fonts/Exo2-Black.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-BlackItalic;
+    src: url(../../Assets/Fonts/Exo2-BlackItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-Bold;
+    src: url(../../Assets/Fonts/Exo2-Bold.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-BoldItalic;
+    src: url(../../Assets/Fonts/Exo2-BoldItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-ExtraBold;
+    src: url(../../Assets/Fonts/Exo2-ExtraBold.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-ExtraBoldItalic;
+    src: url(../../Assets/Fonts/Exo2-ExtraBoldItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-ExtraLight;
+    src: url(../../Assets/Fonts/Exo2-ExtraLight.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-ExtraLightItalic;
+    src: url(../../Assets/Fonts/Exo2-ExtraLightItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-Medium;
+    src: url(../../Assets/Fonts/Exo2-Medium.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-MediumItalic;
+    src: url(../../Assets/Fonts/Exo2-MediumItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-SemiBold;
+    src: url(../../Assets/Fonts/Exo2-SemiBold.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-SemiBoldItalic;
+    src: url(../../Assets/Fonts/Exo2-SemiBoldItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-Thin;
+    src: url(../../Assets/Fonts/Exo2-Thin.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-Light;
+    src: url(../../Assets/Fonts/Exo2-Light.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Exo2-ThinItalic;
+    src: url(../../Assets/Fonts/Exo2-ThinItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* End fonts */
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body,
+div {
+    font-family: Exo2-Medium;
+    font-size: 16px;
+    background: #000;
+    color: #9ac32a;
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 5.5rem;
+        line-height: 0.94;
+    }
+
+    h5 {
+        font-size: 2rem;
+        line-height: 1.25;
+    }
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+a,
+p {
+    color: #e9e9ec;
+}
+
+.wrap-content {
+    padding: 4rem 5%;
+    overflow: hidden;
+}
+
+.title {
+    margin: 0 0 2.5rem;
+    text-align: center;
+}
+
+
+.image-list img {
+    object-fit: cover;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}
+
+.wide-btn {
+    background: url(../../Assets/Img/WIDE-BTN-GREEN.png);
+    border: none;
+    color: #ecdf00;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Exo2-Bold;
+    margin: 0 auto;
+    padding: 3.4rem 0 2.45rem;
+    text-transform: uppercase;
+    width: 200px;
+    height: 110px;
+    justify-content: center;
+}
+
+embed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (min-width: 1100px) {
+    a {
+        color: #5f5f5f;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+
+    nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .image {
+        background-size: contain;
+        background-position: 0 0;
+    }
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+#toggle:checked~.puppies {
+    margin-top: 135px;
+}
+
+.wrap-footer {
+    background-color: #18243d;
+    color: #e9e9ec;
+    font-family: Exo2-Light;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.wrap-footer a {
+    margin: 0.5rem 0;
+}
+
+/* general slider */
+.general-slider {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.general-slider li {
+    height: 40vh;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.general-slider li img {
+    max-height: 100%;
+    min-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.wrap-slider {
+    position: relative;
+}
+
+.wrap-slider a.btn {
+    position: absolute;
+    top: 40%;
+    font-size: 3rem;
+    right: 93%;
+}
+
+.wrap-slider a.btn.next {
+    right: 3%;
+}
+
+.wrap-slider a.btn:hover {
+    transform: translate3d(0, 10px, 0);
+}
+
+.general-slider li {
+    display: none;
+}
+
+.general-slider li.active {
+    display: flex;
+}
+
+/* END general slider  */
+
+.galery .wrap-content {
+    padding: 0;
+}

@@ -1,9 +1,8 @@
 import './header.css';
-import '../../Assets/Styles/main.css';
 
 function Header() {
   return (
-    <nav>
+    <nav className=''>
       <div className='overlay'>
         <label htmlFor="toggle"></label>
         <a href="/">
@@ -184,8 +183,8 @@ function Header() {
 
       <input type="checkbox" id="toggle" name="toggle" />
       <ul className={"verticalNav"}>
-        <li><a href="./">Music Galery</a></li>
-        <li><a href="./galery.html">Art Galery</a></li>
+        <li><a href="./Music">Music Galery</a></li>
+        <li><a href="./gallery">Art Galery</a></li>
       </ul>
     </nav>
 

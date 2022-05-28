@@ -1,0 +1,64 @@
+@mixin maring-and-padding-spacing( $spacing ) {
+    @for $i from 1 to 11 {
+       // Margin
+       %margin-#{$i}x { margin: $spacing * $i; }
+      
+       %margin-top-#{$i}x, 
+       %margin-vertical-#{$i}x { margin-top: $spacing * $i; }
+      
+       %margin-bottom-#{$i}x,
+       %margin-vertical-#{$i}x { margin-bottom: $spacing * $i; }
+      
+       %margin-left-#{$i}x,
+       %margin-horizontal-#{$i}x { margin-left: $spacing * $i; }
+      
+       %margin-right-#{$i}x,
+       %margin-horizontal-#{$i}x { margin-right: $spacing * $i; }
+      
+       // Padding
+       %padding-#{$i}x { padding: $spacing * $i; }
+      
+       %padding-top-#{$i}x,
+       %padding-vertical-#{$i}x { padding-top: $spacing * $i; }
+      
+       %padding-bottom-#{$i}x,
+       %padding-vertical-#{$i}x{ padding-bottom: $spacing * $i; }
+      
+       %padding-left-#{$i}x,
+       %padding-horizontal-#{$i}x { padding-left: $spacing * $i; }
+      
+       %padding-right-#{$i}x,
+       %padding-horizontal-#{$i}x{ padding-right: $spacing * $i; }
+      }
+  }
+  
+  $spacing: 5px;
+  @include maring-and-padding-spacing($spacing);
+  
+  .block {
+    border: 1px solid #afb4bf;
+    @extend %margin-top-1x;
+    background-color: #eceff5;
+    font-family: American Typewriter;
+    background-color: #eceff5;
+    text-align: center; 
+  }
+  
+  .margin-4x { @extend %margin-4x; }
+  .margin-top-4x { @extend %margin-top-4x; }
+  .margin-bottom-4x { @extend %margin-bottom-4x;}
+  .margin-vertical-4x {  @extend %margin-vertical-4x; }
+  .margin-horizontal-10x {  @extend %margin-horizontal-10x; }
+  .margin-left-3x { @extend %margin-left-3x; }
+  .margin-left-4x { @extend %margin-left-4x; }
+  .margin-left-5x { @extend %margin-left-5x; }
+  
+  .block--top-padding-example { @extend %margin-top-7x; }
+  .block--right-padding-example { text-align: right; }
+  .padding-4x { @extend %padding-4x; }
+  .padding-vertical-4x {  @extend %padding-vertical-4x; }
+  .padding-horizontal-10x {  @extend %padding-horizontal-10x; }
+  .padding-right-3x { @extend %padding-right-3x; }
+  .padding-right-4x { @extend %padding-right-4x; }
+  .padding-right-5x { @extend %padding-right-5x; }
+
