@@ -4,16 +4,40 @@ import Header from "../../Layouts/Header/Header";
 import Footer from "../../Layouts/Footer/Footer";
 import demo from "../../Assets/Video/demo.mp4";
 
-export default function Home() {
-    return (
-        <div>
-            <Header />
-            <div id="wrap-video-home" className="pos-relative">
-                <video width="750" height="900" loop autoPlay>
-                    <source id="video-landing" src={demo} type="video/mp4"/>
-                </video>
+export default class Home extends React.Component {
+    constructor(props) {
+        super(props);
+
+        // Initializing the state 
+        this.state = { color: 'lightgreen' };
+    }
+
+    componentDidMount() {
+        this.setState({isLoading: true})
+    }
+
+    render() {
+        const { isLoading } = this.state;
+
+        return (
+            <div>
+                <Header />
+                <React.Fragment>
+                    {isLoading}
+
+                    <video
+                        loop
+                        muted
+                        autoPlay
+                        src={demo}
+                        preload={'auto'}
+                        type={'video/mp4'}
+                        ref={ref => this.headerVideo}
+                        onLoadEnd={() => this.setState({isLoading: false})}>
+                    </video>
+                </React.Fragment>
+                <Footer />
             </div>
-            <Footer />
-        </div>
-    );
+        )
+    }
 }

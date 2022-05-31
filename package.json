@@ -1,5 +1,6 @@
 {
   "name": "akabal",
+  "homepage": "https://akbal.media/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

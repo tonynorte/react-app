@@ -15,7 +15,7 @@ export default function App() {
             parent route paths, and nested route elements render inside
             parent route elements. See the note about <Outlet> below. */}
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Layout />} >
           <Route index element={<Home />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="music" element={<Music />} />
